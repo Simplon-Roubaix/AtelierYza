@@ -11,11 +11,13 @@
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
     <link rel="icon" href="img/favicon.ico">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
 
-
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
@@ -28,18 +30,29 @@
   <div class="wrap">
     <header>
       <figure>
-        <a href="index.html"><img src="" alt="" id="logo"></a>
+        <a href="index.html" class="brand-logo"><img src="img/Logo_Ate_Yza_cu22.png" alt="Logo" /></a>
       </figure>
       <!--nav starts============================================================ -->
       <nav>
-        <ul>
-          <li><a href="index.html">Accueil active</a></li>
-          <li><a href="gallery.html">Gallerie</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="agenda.html">Agenda</a></li>
-          <li><a href="actualities.html">Actualités</a></li>
-          <li><a href="tarif.html">Tarifs</a></li>
-        </ul>
+        <div class="nav-wrapper">
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Accueil active</a></li>
+            <li><a href="gallery.html">Gallerie</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="agenda.html">Agenda</a></li>
+            <li><a href="actualities.html">Actualités</a></li>
+            <li><a href="tarif.html">Tarifs</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="index.html">Accueil active</a></li>
+            <li><a href="gallery.html">Gallerie</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="agenda.html">Agenda</a></li>
+            <li><a href="actualities.html">Actualités</a></li>
+            <li><a href="tarif.html">Tarifs</a></li>
+          </ul>
+        </div>
       </nav>
       <!--nav ends here========================================================= -->
     </header>
@@ -47,40 +60,50 @@
       <div class="wrapper">
     <!--section starts here===================================================== -->
     <section>
-      <figure>
-        <img src="" alt="" />
-      </figure>
-      <!-- Pictures which will change every time user go the the site -->
-      <fieldset class="row">
-        <label class="col-xs-6 col-sm-4">
-         <img src="" alt="" />
-        </label>
-        <label class="col-xs-6 col-sm-4">
-         <img src="" alt="" />
-        </label>
-        <label class="col-xs-6 col-sm-4">
-         <img src="" alt="" />
-        </label>
-      </fieldset>
-      <fieldset class="row">
-        <label class="col-xs-6 col-sm-4">
-         <img src="" alt="" />
-        </label>
-        <label class="col-xs-6 col-sm-4">
-         <img src="" alt="" />
-        </label>
-        <label class="col-xs-6 col-sm-4">
-         <img src="" alt="" />
-        </label>
-      </fieldset>
-
-    </figure>
-    </section>
-    </div>
+      <div class="col s12 m7">
+        <h2 class="header">Horizontal Card</h2>
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="http://lorempixel.com/100/190/nature/10">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+      </div>
     <!--  wrap ends here========================================================-->
       <!--  footer starts here========================================================-->
-      <footer>
-        <!--  glyphicon=======================================================================-->>
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">L'Atelier d'Yza</h5>
+              <p class="grey-text text-lighten-4">text ici</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Social</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook" aria-hidden="true"></i>
+                     Facebook</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter" aria-hidden="true"></i>
+                     Twitter</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-google-plus" aria-hidden="true"></i>
+                     Gmail</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2016 Copyright Text ici
+          <a class="grey-text text-lighten-4 right" href="partners.html">Partenaires</a>
+          </div>
+        </div>
       </footer>
       <!-- footer ends here=======================================================-->
 
@@ -93,6 +116,7 @@
     </script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/jQuery3.1.min.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -111,6 +135,7 @@
         ga('create', 'UA-XXXXX-X', 'auto');
         ga('send', 'pageview');
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 </body>
 
 </html>
