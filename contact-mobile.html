@@ -4,15 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>L'Atelier d'Yza café couture | Atelier couture</title>
+    <title>L'Atelier d'Yza café couture | Contact</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
     <link rel="icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="css/normalize.css">
 
+    <link rel="stylesheet" href="css/normalize.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
 
@@ -32,17 +32,16 @@
   <div class="wrap">
     <header>
       <figure>
-        <a href="index.html"><img src="" alt="" id="logo"></a>
+        <a href="index.html" class="brand-logo"><img src="img/Logo_Ate_Yza_cu22.png" alt="Logo" /></a>
       </figure>
       <!--nav starts============================================================ -->
       <nav>
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo"><img src="img/Logo_Ate_Yza_cu22.png" alt="" /></a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="index.html">Accueil</a></li>
             <li><a href="gallery.html">Galerie</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
             <li><a href="agenda.html">Agenda</a></li>
             <li><a href="actualities.html">Actualités</a></li>
             <li><a href="tarif.html">Tarifs</a></li>
@@ -57,23 +56,75 @@
           </ul>
         </div>
       </nav>
+
       <!--nav ends here========================================================= -->
     </header>
     <!-- header ends here======================================================= -->
     <!--section starts here===================================================== -->
-    <section>
-      <figure>
-        <img src="img/espace atelier.jpg" alt="" class="responsive-img"/>
-      </figure>
-      <article class="row">
-        <figure>
-          <img src="" alt="" />
-        </figure>
-        <p class="center-align">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut ipsum eget est varius porta. Suspendisse hendrerit ornare eros vel tempor. Sed laoreet tempor dui, non eleifend orci egestas ut. Cras volutpat metus vel nulla imperdiet, ac ultrices dolor condimentum. Integer pharetra nisl suscipit nibh dignissim, quis tristique augue mollis. Mauris pretium aliquam fringilla. Mauris eget diam est. Nulla facilisi. Vestibulum nec mauris sed dolor ullamcorper lobortis nec ac lacus.
-
-Sed in orci massa. Praesent et suscipit augue. Phasellus iaculis, magna vulputate consectetur efficitur, ligula libero sodales lorem, aliquam posuere tellus augue nec nisi. Curabitur fermentum a massa sed auctor. Proin auctor congue augue in tempus. Vestibulum bibendum consequat nulla, et tincidunt erat. Pellentesque tempor mi eros, nec sollicitudin sapien ultrices ac. Nunc arcu mi, facilisis in arcu vel, efficitur tincidunt quam. Suspendisse condimentum ac justo et sagittis. Integer ac purus orci.
+    <section class="row">
+      <article class="Adresse col s12 m6 l6">
+        <h3>Adresse</h3>
+        <br>
+        <p>
+          <i class="fa fa-home" aria-hidden="true"></i>
+          <em>L’Atelier d’Yza</em>
         </p>
+
+        <p>
+          54 rue du Chemin de Fer
+          <br>
+          59100 Roubaix
+        </p>
+
+        <p>
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          06.64.84.19.64
+        </p>
+
+        <p>
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          contact@latelierdyza.fr
+        </p>
+      </article>
+      <article class="Acces col s12 m6 l6">
+        <h3>Accès</h3>
+        <br>
+        <img src="img/metro.png" alt="" /><span>Métro stations Gare Jean-lebas</span>
+
+      </article>
+      <figure class="map col s3 m6 responsive-img">
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://www.embedgooglemaps.com">Google Maps carte sur votre site									Cliquez ici									Visitez notre site Web</a></small></div><div><small><a href="http://youtubeembedcode.com/nl/">Bezoek onze website</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(50.6948787,3.163700199999994),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.6948787,3.163700199999994)});infowindow = new google.maps.InfoWindow({content:'<strong>L’Atelier d’Yza</strong><br>54 rue du Chemin de Fer 59100 roubaix<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+      </figure>
+
+    <div class="row">
+     <form class="col s12">
+     <div class="row">
+       <div class="input-field col s6">
+         <input id="first_name" type="text" class="validate">
+         <label for="first_name">First Name</label>
+       </div>
+       <div class="input-field col s6">
+         <input id="last_name" type="text" class="validate">
+         <label for="last_name">Last Name</label>
+       </div>
+     </div>
+     <div class="row">
+       <div class="input-field col s12">
+         <input id="email" type="email" class="validate">
+         <label for="email">Email</label>
+       </div>
+     </div>
+     <div class="row">
+       <div class="input-field col s12">
+         <textarea id="textarea1" class="materialize-textarea" length="120"></textarea>
+         <label for="textarea1">Comment</label>
+       </div>
+     </div>
+     </form>
+   </div>
+   <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+     <i class="material-icons right">send</i>
+   </button>
 
     </section>
     </div>
