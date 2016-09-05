@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> L'Atelier d'Yza café couture | Acceuil</title>
+    <title> L'Atelier d'Yza café couture</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -35,15 +35,15 @@
         <div class="nav-wrapper">
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li class="active"><a href="index.html">Accueil</a></li>
-            <li><a href="gallery.html">Galerie</a></li>
+            <li><a href="index.html">Accueil active</a></li>
+            <li><a href="gallery.html">Gallerie</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="agenda.html">Agenda</a></li>
             <li><a href="actualities.html">Actualités</a></li>
             <li><a href="tarif.html">Tarifs</a></li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
-            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.html">Accueil active</a></li>
             <li><a href="gallery.html">Gallerie</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="agenda.html">Agenda</a></li>
@@ -57,174 +57,168 @@
     <!-- header ends here======================================================= -->
     <!--section starts here===================================================== -->
     <section>
-        <figure class="col s9 m9 hoverable vertical large">
+        <figure class="col s6 m6 hoverable vertical medium">
           <!--  carousel images starts here===================================== -->
           <!--  Materialize's carousel here-->
-          <div class="carousel carousel-slide">
-              <a class="carousel-item" href="#one!"><img src="img/img_random/20160820_194807_Richtone(HDR).jpg"></a>
+          <div class="carousel">
+              <a class="carousel-item" href="#one!"><img src="img/img_random/Richtone.jpg"></a>
               <a class="carousel-item" href="#two!"><img src="img/img_random/Appart_balcons.JPG"></a>
               <a class="carousel-item" href="#three!"><img src="img/img_random/architecte.JPG"></a>
               <a class="carousel-item" href="#four!"><img src="img/img_random/moderne.JPG"></a>
               <a class="carousel-item" href="#five!"><img src="img/img_random/traditionnel.JPG"></a>
           </div>
+
           <!--  the code below is to be insert into main js file-->
-           <!-- $('.carousel.carousel-slider').carousel({full_width: true}); -->
+          <!-- $(document).ready(function(){
+          $('.carousel').carousel();
+          }); -->
+
+          <!-- jQuery Plugin Methods: We have methods to pause, start, move to next and move to previous slide. -->
+          <!-- // Next slide -->
+          <!-- $('.carousel').carousel('next');
+          $('.carousel').carousel('next', 3); // Move next n times.
+          // Previous slide
+          $('.carousel').carousel('prev');
+          $('.carousel').carousel('prev', 4); // Move prev n times.
+          // Set to nth slide
+          $('.carousel').carousel('set', 4); -->
           <!--  materialize carousel end here-->
 
           <!--  carousel images ends here======================================= -->
         </figure>
-        <article class="concept col s6 m6">
+        <article>
           <h5 class="center-align">CONCEPTS</h5>
             <!--  frame work materialize for card===============================-->
             <div class="row">
-              <div class="col s4 m4">
-                <div class="card hoverable vertical small">
+              <div class="col s7 m7">
+                <div class="card hoverable vertical medium">
                   <div class="card-image">
                     <img src="img/rsz_20_richtonehdr.jpg" alt="lingerie">
+                    <a href="espace_libre_service.html"><span class="card-title"><strong>ESPACE LIBRE SERVICE</strong></span></A>
                   </div>
-                  <div class="card-stacked">
-                    <div class="card-content">
-                      <h6>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
-                         Donec id elit non mi porta gravida at eget metus.</h6>
-                    </div>
-                    <div class="card-action">
-                      <a href="espace_libre_service.html">ESPACE LIBRE SERVICE</a>
-                    </div>
+                  <div class="card-content">
+                    <h6>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
+                       Donec id elit non mi porta gravida at eget metus.</h6>
                   </div>
                 </div>
               </div>
-              <div class="col s4 m4">
-                <div class="card hoverable vertical small">
+              <div class="col s7 m7">
+                <div class="card hoverable vertical medium">
                   <div class="card-image">
                     <img src="img/r_espace_atelier .jpg" alt="atelier">
+                    <a href="atelier_couture.html"><span class="card-title"><strong>ESPACE ATELIER</strong></span></A>
                   </div>
-                  <div class="card-stacked">
-                    <div class="card-content">
-                      <h6>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
-                         Donec id elit non mi porta gravida at eget metus.</h6>
-                    </div>
-                    <div class="card-action">
-                      <a href="atelier_couture.html">ESPACE ATELIER</a>
-                    </div>
+                  <div class="card-content">
+                    <h6>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
+                       Donec id elit non mi porta gravida at eget metus.</h6>
                   </div>
                 </div>
               </div>
-              <div class="col s4 m4">
-                <div class="card hoverable vertical small">
+              <div class="col s7 m7">
+                <div class="card hoverable vertical medium">
                   <div class="card-image">
-                    <img src="img/charlotte_lingerie.jpg" alt="salon">
+                    <img src="img/rsz_20_richtonehdr.jpg" alt="lingerie">
+                    <a href="salon_the.html"><span class="card-title"><strong>SALON TH&Eacute;</strong></span></A>
                   </div>
-                  <div class="card-stacked">
-                    <div class="card-content">
-                      <h6>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
-                         Donec id elit non mi porta gravida at eget metus.</h6>
-                    </div>
-                    <div class="card-action">
-                      <a href="salon_the.html">SALON TH&Eacute;</a>
-                    </div>
+                  <div class="card-content">
+                    <h6>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
+                       Donec id elit non mi porta gravida at eget metus.</h6>
                   </div>
                 </div>
               </div>
             </div>
-            <button class="btn waves-effect waves-light" type="submit" name="action">ANN&Eacute;E:
-                <!--  BUTTON COLOR:#263248-->
-                <i class="material-icons right">2016</i>
-              </button>
-              <button class="btn waves-effect waves-light" type="submit" name="action">MOIS:
-                  <!--  BUTTON COLOR:#7EBAA2-->
-                  <i class="material-icons right">SEPTEMBRE</i>
-                </button>
-            <!-- Materialize's Dropdown Trigger ================================-->
-              <!-- <a class='dropdown-button btn' data-beloworigin="true" href='#' data-activates='dropdown1'>MOIS</a> -->
-              <!-- Dropdown Structure -->
-              <!-- <ul id='dropdown1' class='dropdown-content'>
-              <li>JANVIER</li>
-              <li>FEVRIER</li>
-              <li>MARS</li>
-              <li>AVRIL</li>
-              <li>MAI></li>
-              <li>JUIN</li>
-              <li>JUILLET</li>
-              <li>AO&Ucirc;T</li>
-              <li>SEPTEMBRE</li>
-              <li>OCTOBRE</li>
-              <li>NOVEMBRE</li>
-              <li>D&Eacute;CEMBRE/li>
-              </ul> -->
-          <!--  frame work materialize for card=================================-->
+          <button class="btn waves-effect waves-light" type="submit" name="action">ANN&Eacute;E:
+          <!--  BUTTON COLOR:#263248-->
+          <i class="material-icons right">2016</i>
+          </button>
+          <button class="btn waves-effect waves-light" type="submit" name="action">MOIS:
+            <!--  BUTTON COLOR:#7EBAA2-->
+            <i class="material-icons right">SEPTEMBRE</i>
+          </button>
+      <!-- Materialize's Dropdown Trigger ================================-->
+        <!-- <a class='dropdown-button btn' data-beloworigin="true" href='#' data-activates='dropdown1'>MOIS</a> -->
+        <!-- Dropdown Structure -->
+        <!-- <ul id='dropdown1' class='dropdown-content'>
+        <li>JANVIER</li>
+        <li>FEVRIER</li>
+        <li>MARS</li>
+        <li>AVRIL</li>
+        <li>MAI></li>
+        <li>JUIN</li>
+        <li>JUILLET</li>
+        <li>AO&Ucirc;T</li>
+        <li>SEPTEMBRE</li>
+        <li>OCTOBRE</li>
+        <li>NOVEMBRE</li>
+        <li>D&Eacute;CEMBRE/li>
+        </ul> -->
+    <!--  frame work materialize for card=================================-->
           <div class="row">
-            <div class="col s6 m6">
-              <div class="card-panel pink">
-                <span class="white-text">
-                  <!--  table build with pur html===============================-->
-                  <table class="centered bordered responsive-table">
-                    <thead> <!-- En-tête du tableau -->
-                        <tr>
-                            <th>Dimanche</th>
-                            <th>Lundi</th>
-                            <th>Mardi</th>
-                            <th>Mercredi</th>
-                            <th>Jeudi</th>
-                            <th>Vendredi</th>
-                            <th>Samedi</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>28</td>
-                        <td>29</td>
-                        <td>30</td>
-                        <td>31</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                      </tr>
-                      <tr>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
-                        <td>7</td>
-                        <td>8</td>
-                        <td>9</td>
-                        <td>10</td>
-                      </tr>
-                      <tr>
-                        <td>11</td>
-                        <td>12</td>
-                        <td>13</td>
-                        <td>14</td>
-                        <td>15</td>
-                        <td>16</td>
-                        <td>17</td>
-                      </tr>
-                      <tr>
-                        <td>18</td>
-                        <td>19</td>
-                        <td>20</td>
-                        <td>21</td>
-                        <td>22</td>
-                        <td>23</td>
-                        <td>24</td>
-                      </tr>
-                      <tr>
-                        <td>25</td>
-                        <td>26</td>
-                        <td>27</td>
-                        <td>28</td>
-                        <td>29</td>
-                        <td>30</td>
-                        <td>31</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </span>
-              </div>
-            </div>
-            <figure class="col s4 m4">
-             <img src="img/rsz_logo_screen.jpg" alt="logo">
-            </figure>
+          <div class="card-panel pink col s7 m7 hoverable vertical medium">
+            <span class="white-text">
+              <!--  table build with pur html===============================-->
+              <table class=" bordered responsive-table">
+                <thead> <!-- En-tête du tableau -->
+                    <tr>
+                        <th>Dimanche</th>
+                        <th>Lundi</th>
+                        <th>Mardi</th>
+                        <th>Mercredi</th>
+                        <th>Jeudi</th>
+                        <th>Vendredi</th>
+                        <th>Samedi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                  </tr>
+                  <tr>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                  </tr>
+                  <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                  </tr>
+                </tbody>
+              </table>
+            </span>
           </div>
-
         </div>
       </article>
     </section>
