@@ -480,7 +480,7 @@ body {
   font-family: Abel;
 }
 
-.wrap {
+.wrapper {
  width: 70%;
  margin: 0 auto;
 }
@@ -498,6 +498,9 @@ body {
   margin: 0 auto!important;
 }
 
+.section_contact {
+  background-color: #7E8AA2;
+}
 
 
 
