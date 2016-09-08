@@ -102,14 +102,15 @@ textarea {
    .section_index{
      margin: 0 auto;
      width:90%;
+
    }
-   .concept{
+   .concept_index,.column_index{
      text-align: center;
    }
-   article{
+   .article_index{
      background-color: #7E8AA2;
    }
-   .card{
+   .card_index{
      text-align: center;
    }
 
