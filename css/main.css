@@ -99,7 +99,20 @@ textarea {
    /* ##################################################################### */
    /* ##########################   Simon Pierre   ########################### */
    /* ##################################################################### */
+   .section_index{
+     margin: 0 auto;
+     width:90%;
 
+   }
+   .concept_index,.column_index{
+     text-align: center;
+   }
+   .article_index{
+     background-color: #7E8AA2;
+   }
+   .card_index{
+     text-align: center;
+   }
 
 
 
