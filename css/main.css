@@ -100,20 +100,19 @@ textarea {
    /* ##########################   Simon Pierre   ########################### */
    /* ##################################################################### */
    .section_index,.section_gallery,.section_espace_libre{
-      background-color: #7E8AA2;
-     margin: 0 auto;
-     width:90%;
+     background-color: #7E8AA2;
+     margin: 0 80px -20px -70px;
+     padding-top: 5px;
+
+     width:125%;
 
    }
    .concept_index,.column_index{
      text-align: center;
    }
-   .article_index,.article_espace_libre{
 
-   }
-   .card_index,.card_gallery,.card_espace_libre{
-     text-align: center;
-   }
+
+
 
 
 
