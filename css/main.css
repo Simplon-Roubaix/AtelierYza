@@ -100,11 +100,11 @@ textarea {
    /* ##########################   Simon Pierre   ########################### */
    /* ##################################################################### */
    .section_index,.section_gallery,.section_espace_libre{
-     background-color: #7E8AA2;
-     margin: 0 0 -20px -110px;
+     background-color: #E0E0E0;
+     margin: 0 0 -20px -70px;
      padding-top: 5px;
 
-     width:125%;
+     width:115%;
 
    }
    .concept_index,.column_index{
