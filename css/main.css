@@ -100,20 +100,27 @@ textarea {
    /* ##########################   Simon Pierre   ########################### */
    /* ##################################################################### */
    .section_index,.section_gallery,.section_espace_libre{
-      background-color: #7E8AA2;
-     margin: 0 auto;
-     width:90%;
+     /*background-color: #E0E0E0;*/
+     margin: 0 0 -20px -70px;
+     padding-top: 5px;
+
+     width:115%;
 
    }
    .concept_index,.column_index{
      text-align: center;
    }
-   .article_index,.article_espace_libre{
+   main{
+     font-family: Helvetica monospace sans-serif;
+     font-size: 1.5em;
+     border: 1,5px dotted black;
+     background-color: #E0E0E0;
+     width: 110%;
+     margin-left: -50px;
+   }
 
-   }
-   .card_index,.card_gallery,.card_espace_libre{
-     text-align: center;
-   }
+
+
 
 
 
@@ -274,19 +281,6 @@ textarea {
    /* ##########################   Justyna  ########################### */
    /* ##################################################################### */
 
-	/****************************  salon_the.html **********************/
-
-	/****************************  agenda.html *************************/
-
-	.agenda_row {
-		display: inline;
-	}
-
-	/****************************  tarif.html **********************/
-	.tarif_empty_tr {
-		height: 20px;
-
-	}
 
 
 
