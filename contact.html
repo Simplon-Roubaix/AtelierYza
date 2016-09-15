@@ -62,7 +62,7 @@
     <!-- header ends here======================================================= -->
     <div class="wrapper">
     <!--section starts here===================================================== -->
-    <section class="row section_contact">
+    <section class="row section_contact z-depth-1">
       <article class="Adresse col l6">
         <h3>Adresse</h3>
         <br>
@@ -93,12 +93,13 @@
         <img class="metro" src="img/metro.png" alt="" /><span>  Métro stations Gare Jean-lebas</span>
 
       </article>
-      <figure class="map">
-        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://www.embedgooglemaps.com">Google Maps carte sur votre site									Cliquez ici									Visitez notre site Web</a></small></div><div><small><a href="http://youtubeembedcode.com/nl/">Bezoek onze website</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(50.6948787,3.163700199999994),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.6948787,3.163700199999994)});infowindow = new google.maps.InfoWindow({content:'<strong>L’Atelier d’Yza</strong><br>54 rue du Chemin de Fer 59100 roubaix<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+      <figure class="map-contact">
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div id='gmap_canvas' class="hide-on-med-and-down" style='height:440px;width:700px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(50.6948787,3.163700199999994),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.6948787,3.163700199999994)});infowindow = new google.maps.InfoWindow({content:'<strong>L’Atelier d’Yza</strong><br>54 rue du Chemin de Fer 59100 roubaix<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
       </figure>
 
+  <div class="container form-contact">
     <div class="row">
-     <form class="col s12">
+     <form class="col s12 l12">
      <div class="row">
        <div class="input-field col s6">
          <input id="first_name" type="text" class="validate">
@@ -127,6 +128,7 @@
      <i class="material-icons right">send</i>
    </button>
 
+ </div>
     </section>
   </div> <!-- end wrapper -->
 </div>
