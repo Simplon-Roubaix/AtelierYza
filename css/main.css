@@ -517,12 +517,21 @@ body {
 
 #gmap_canvas {
   margin: 0 auto!important;
+  /*overflow: hidden;*/
 }
+
 
 .section_contact {
-  background-color: #E0E0E0;
+  /*background-color: #E0E0E0;*/
 }
 
+.form-contact {
+  margin: 0 auto;
+}
+
+@media screen (min-width: 768px) {
+
+}
 
 
 
