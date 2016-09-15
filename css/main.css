@@ -521,7 +521,7 @@ body {
 
 #gmap_canvas {
   margin: 0 auto!important;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 
