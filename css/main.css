@@ -99,18 +99,21 @@ textarea {
    /* ##################################################################### */
    /* ##########################   Simon Pierre   ########################### */
    /* ##################################################################### */
-   .section_index,.section_gallery,.section_espace_libre{
+   .section_index,.section_espace_libre{
      /*background-color: #E0E0E0;*/
-     margin: 0 0 -20px -70px;
+     margin: 0 -30px -20px -40px;
+   }
+   .section_gallery{
+     margin: 0 -30px -20px -100px;
+   }
+   .section_index,.section_espace_libre,.section_gallery{
      padding-top: 5px;
-
      width:115%;
-
    }
    .concept_index,.column_index{
      text-align: center;
    }
-   main{
+   .main_index{
      font-family: Helvetica monospace sans-serif;
      font-size: 1.5em;
      border: 1,5px dotted black;
@@ -118,6 +121,7 @@ textarea {
      width: 110%;
      margin-left: -50px;
    }
+
 
 
 
