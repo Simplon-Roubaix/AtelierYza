@@ -290,6 +290,19 @@ textarea {
 
 
 
+		/****************************  salon_the.html **********************/
+
+		/****************************  agenda.html *************************/
+		.agenda_row {
+			display: inline;
+		}
+		/****************************  tarif.html **********************/
+		.tarif_empty_tr {
+			height: 20px;
+		}
+
+
+
 
 
 
@@ -486,7 +499,7 @@ textarea {
    /* ##################################################################### */
 
 header {
-  background-color: #FEFEE2;
+  background-color: #FFF;
 }
 
 .logo-header {
@@ -521,7 +534,7 @@ body {
 
 #gmap_canvas {
   margin: 0 auto!important;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 
