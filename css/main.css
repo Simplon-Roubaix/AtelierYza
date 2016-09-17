@@ -115,20 +115,16 @@ textarea {
    }
    .main_index{
      font-family: Helvetica monospace sans-serif;
-     font-size: 1.5em;
+     font-size: 1.2em;
      border: 1,5px dotted black;
      /*background-color: #E0E0E0;*/
      width: 110%;
-     margin-left: -50px;
+     margin-left: -25px;
    }
    .table_index{
      text-align: center;
      background-color: #B70060;
    }
-  .row .waves-light{
-
-    background-color: #e8d8d8;
-  }
 
 
 
