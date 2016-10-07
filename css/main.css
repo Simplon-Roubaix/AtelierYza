@@ -130,12 +130,17 @@ h5 {
   font-family: Abel!important;
 }
 
+<<<<<<< HEAD
 /*CARROUSEL*/
 
 
 .carousel_size{
   width:500px;
   height:360px;
+=======
+.news {
+    margin-top: 65px;
+>>>>>>> 5e5ca6119c725b97a284ac225857f14ede19b723
 }
 
 
@@ -561,6 +566,10 @@ body {
 
 @media screen (min-width: 768px) {
 
+}
+
+.actualiter {
+    padding-top: 60px!important;
 }
 
 
