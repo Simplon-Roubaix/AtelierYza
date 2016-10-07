@@ -130,6 +130,9 @@ h5 {
   font-family: Abel!important;
 }
 
+.news {
+    margin-top: 65px;
+}
 
 
 
@@ -554,6 +557,10 @@ body {
 
 @media screen (min-width: 768px) {
 
+}
+
+.actualiter {
+    padding-top: 60px!important;
 }
 
 
