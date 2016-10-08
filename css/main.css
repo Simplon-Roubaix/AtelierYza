@@ -133,6 +133,9 @@ textarea {
  .news {
      margin-top: 65px;
  }
+ .archive {
+     padding-top: 60px!important;
+ }
 
 
 
@@ -559,9 +562,7 @@ body {
 
 }
 
-.actualiter {
-    padding-top: 60px!important;
-}
+
 
 
 
