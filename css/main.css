@@ -301,6 +301,7 @@ h5 {
 		/****************************  agenda.html *************************/
 		.agenda_row {
 			display: inline;
+            padding: 0 0.75rem;
 		}
 		/****************************  tarif.html **********************/
 		.tarif_empty_tr {
