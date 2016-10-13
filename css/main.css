@@ -307,7 +307,12 @@ textarea {
 		/****************************  agenda.html *************************/
 		.agenda_row {
 			display: inline;
+            /* padding: 0 0.75rem;*/
 		}
+
+        /*.row .col {
+            padding: 0 0.75rem;
+        } */
 		/****************************  tarif.html **********************/
 		.tarif_empty_tr {
 			height: 20px;
