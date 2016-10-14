@@ -97,39 +97,45 @@ textarea {
 
 
    /* ##################################################################### */
-   /* ##########################   Simon Pierre   ########################### */
-   /* ##################################################################### */
-   .section_index,.section_espace_libre{
-     /*background-color: #E0E0E0;*/
-     margin: 0 -30px -20px -40px;
-   }
-   .section_gallery{
-     margin: 0 -30px -20px -100px;
-   }
-   .section_index,.section_espace_libre,.section_gallery{
-     padding-top: 5px;
-     width:115%;
-   }
-   .concept_index,.column_index{
-     text-align: center;
-   }
-   .main_index{
-     font-family: Helvetica monospace sans-serif;
-     font-size: 1.2em;
-     border: 1,5px dotted black;
-     /*background-color: #E0E0E0;*/
-     width: 110%;
-     margin-left: -25px;
-   }
-   .table_index{
-     text-align: center;
-     background-color: #B70060;
-   }
+ /* ##########################   Simon Pierre   ########################### */
+ /* ##################################################################### */
+ .section_index,.section_espace_libre{
+   /*background-color: #E0E0E0;*/
+   margin: 0 -30px -20px -40px;
+ }
+ .section_gallery{
+   margin: 0 -30px -20px -100px;
+ }
+ .section_index,.section_espace_libre,.section_gallery{
+   padding-top: 5px;
+   width:115%;
+ }
+ .concept_index,.column_index{
+   text-align: center;
+ }
+ .main_index{
+   font-family: Helvetica monospace sans-serif;
+   font-size: 1.2em;
+   border: 1,5px dotted black;
+   /*background-color: #E0E0E0;*/
+   width: 110%;
+   margin-left: -25px;
+ }
+ .table_index{
+   text-align: center;
+   background-color: #B70060;
+ }
 
-h5 {
-  font-family: Abel!important;
-}
+ h5 {
+   font-family: Abel!important;
+ }
 
+ .news {
+     margin-top: 65px;
+ }
+ .archive {
+     padding-top: 60px!important;
+ }
 
 
 
@@ -560,6 +566,8 @@ body {
 @media screen (min-width: 768px) {
 
 }
+
+
 
 
 
