@@ -104,14 +104,22 @@ textarea {
    margin: 0 -30px -20px -40px;
  }
  .section_gallery{
-   margin: 0 -30px -20px -100px;
+   margin: 0 -30px -35px -100px;
  }
  .section_index,.section_espace_libre,.section_gallery{
    padding-top: 5px;
    width:115%;
+   text-align: center;
  }
+
  .concept_index,.column_index{
    text-align: center;
+ }
+ .section_index{
+    padding-left: 40px !important;
+ }
+ .section_gallery{
+   padding-left: 28px;
  }
  .main_index{
    font-family: Helvetica monospace sans-serif;
@@ -136,8 +144,13 @@ textarea {
  .archive {
      padding-top: 60px!important;
  }
-
-
+.carousel{
+  width:  30 %;
+  height: 35 %;
+}
+.header_space{
+  text-align: center;
+}
 
 
 
