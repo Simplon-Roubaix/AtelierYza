@@ -168,16 +168,17 @@ padding-right: 10px;
      /*margin: 10px 25px 10px -40px;*/
       margin: 0 auto;
        width:  80%;
+       height: 35%;
  }
  .archive {
      padding-top: 60px!important;
  }
-.carousel{
+/*.carousel{
 
   width:  30%;
   height: 35%;
 
-}
+}*/
 .header_space{
   text-align: center;
 }
