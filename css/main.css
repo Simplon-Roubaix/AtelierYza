@@ -124,7 +124,7 @@ textarea {
  .main_index{
    font-family: Helvetica monospace sans-serif;
    font-size: 1.2em;
-   border: 1,5px dotted black;
+   border: 1.5px dotted black;
    /*background-color: #E0E0E0;*/
    width: 110%;
    margin-left: -25px;
@@ -145,8 +145,8 @@ textarea {
      padding-top: 60px!important;
  }
 .carousel{
-  width:  30 %;
-  height: 35 %;
+  width:  30%;
+  height: 35%;
 }
 .header_space{
   text-align: center;
@@ -317,16 +317,18 @@ textarea {
 
 /****************************  salon_the.html **********************/
 
-
+.header_salon_the {
+    text-align: center;
+}
 
 /****************************  agenda.html *************************/
 
 
 
 /****************************  tarif.html *************************/
-		.tarif_empty_tr {
-			height: 20px;
-		}
+.tarif_empty_tr {
+    height: 20px;
+}
 
 
 
@@ -538,7 +540,7 @@ nav {
 }
 
 .page-footer {
-  background-color: #B70060!important;
+  background-color: #B70060 !important;
 }
 
 body {
@@ -573,7 +575,7 @@ body {
   margin: 0 auto;
 }
 
-@media screen (min-width: 768px) {
+@media screen and (min-width:768px) {
 
 }
 
