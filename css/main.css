@@ -99,14 +99,42 @@ textarea {
    /* ##################################################################### */
  /* ##########################   Simon Pierre   ########################### */
  /* ##################################################################### */
- .section_index,.section_espace_libre{
+
+ @media (min-width: 241px) {
+   .section_index{
+     margin-left: -5px;
+     margin-right: 0;}
+   }
+@media (max-width: 600px) {
+ .section_index{
+   margin-left: -5px;
+   margin-right: 0;
+               }
+
+ }
+@media (min-width: 601px) {
+ .section_index, .news{
+   margin: 0 auto;
+                }
+@media (max-width: 992px) {
+ .section_index{
+   width: 120%;
+   margin-left: 100px ;
+   margin-right: -65px;
+                }
+ .center-align,main .main_index{
+    text-align: center!important;
+padding-right: 10px;
+                }
+ }
+ .section_espace_libre{
    /*background-color: #E0E0E0;*/
    margin: 0 -30px -20px -40px;
  }
  .section_gallery{
    margin: 0 -30px -35px -100px;
  }
- .section_index,.section_espace_libre,.section_gallery{
+ .section_espace_libre,.section_gallery{
    padding-top: 5px;
    width:115%;
    text-align: center;
@@ -115,9 +143,7 @@ textarea {
  .concept_index,.column_index{
    text-align: center;
  }
- .section_index{
-    padding-left: 40px !important;
- }
+
  .section_gallery{
    padding-left: 28px;
  }
@@ -127,7 +153,7 @@ textarea {
    border: 1,5px dotted black;
    /*background-color: #E0E0E0;*/
    width: 110%;
-   margin-left: -25px;
+
  }
  .table_index{
    text-align: center;
@@ -139,13 +165,15 @@ textarea {
  }
 
  .news {
-     margin-top: 65px;
+     /*margin: 10px 25px 10px -40px;*/
+      margin: 0 auto;
+       width:  80%;
  }
  .archive {
      padding-top: 60px!important;
  }
 .carousel{
-  width:  30 %;
+  /*width:  30 %;*/
   height: 35 %;
 }
 .header_space{
@@ -530,6 +558,7 @@ textarea {
 
 header {
   background-color: #FFF;
+
 }
 
 .logo-header {
@@ -546,6 +575,7 @@ nav {
 
 body {
   font-family: Abel;
+  text-align: center;
 }
 
 .wrapper {
