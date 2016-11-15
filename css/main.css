@@ -98,30 +98,11 @@ textarea {
 
    /* ##################################################################### */
  /* ##########################   Simon Pierre   ########################### */
- /* ##################################################################### */
-
- @media (min-width: 241px) {
-   .section_index{
-     margin-left: -5px;
-     margin-right: 0;}
-   }
-@media (max-width: 600px) {
- .section_index{
-   margin-left: -5px;
-   margin-right: 0;
-               }
-
+ /* ############################pages: index.html, galerie.html, actualites.html et espace_libre_service.html######################################### */
+ h5 {
+   font-family: Abel!important;
  }
-@media (min-width: 601px) {
- .section_index, .news{
-   margin: 0 auto;
-                }
-@media (max-width: 992px) {
- .section_index{
-   width: 120%;
-   margin-left: 100px ;
-   margin-right: -65px;
-                }
+ 
 .carte_present{
   height: 40%;
 }
@@ -164,9 +145,6 @@ padding-right: 10px;
    background-color: #B70060;
  }
 
- h5 {
-   font-family: Abel!important;
- }
 
  .news {
      /*margin: 10px 25px 10px -40px;*/
@@ -186,164 +164,34 @@ padding-right: 10px;
 .header_space{
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 241px) {
+  .section_index{
+    margin-left: -5px;
+    margin-right: 0;}
+  }
+@media (max-width: 600px) {
+.section_index{
+  margin-left: -5px;
+  margin-right: 0;
+              }
+
+}
+@media (min-width: 601px) {
+.section_index, .news{
+  margin: 0 auto;
+               }
+@media (max-width: 992px) {
+.section_index{
+  width: 120%;
+  margin-left: 100px ;
+  margin-right: -65px;
+               }
 
 
 
    /* ##################################################################### */
    /* ##########################   Justyna  ########################### */
-   /* ##################################################################### */
+   /* ################################pages: agenda.html, salon_the.html et tarif.html##################################### */
 
 
 
@@ -367,212 +215,26 @@ padding-right: 10px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    /* ##################################################################### */
    /* ##########################   Ryan   ########################### */
-   /* ##################################################################### */
+   /* #############################pages: contact.html, atelier_couture.html et partners.html######################################## */
 
 header {
-  background-color: #FFF;
+
+ width: 100%;
+ background-color: #FFF;
+
+}
+nav{
+
+  background-size: cover;
+  background-color: #B70060 ;
 }
 
 .logo-header {
   margin-top: 0;
 }
 
-nav {
-  background-color: #B70060;
-}
 
 .page-footer {
   background-color: #B70060 !important;
@@ -590,6 +252,7 @@ body {
 article a{
     color:#ff8c00!important;
 }
+
 .metro {
 
   width: 30px;
