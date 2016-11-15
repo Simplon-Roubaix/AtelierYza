@@ -101,8 +101,9 @@ textarea {
  /* ############################pages: index.html, galerie.html, actualites.html et espace_libre_service.html######################################### */
  h5 {
    font-family: Abel!important;
+   text-align: center;
  }
- 
+
 .carte_present{
   height: 40%;
 }
@@ -113,14 +114,26 @@ padding-right: 10px;
  }
  .section_espace_libre{
    /*background-color: #E0E0E0;*/
-   margin: 0 -30px -20px -40px;
+   /*margin: 0 -30px -20px -40px;*/
  }
- .section_gallery{
+ /*.section_gallery{
    margin: 0 -30px -35px -100px;
- }
- .section_espace_libre,.section_gallery{
+ }*/
+ /*.section_espace_libre,.section_gallery{
    padding-top: 5px;
    width:115%;
+   text-align: center;
+ }*/
+ /*.section_espace_libre,.section_gallery{
+
+   width:100%;
+
+ }*/
+
+ section{
+   width: 80%;
+   height: 75%;
+   margin: 0 auto;
    text-align: center;
  }
 
@@ -128,9 +141,6 @@ padding-right: 10px;
    text-align: center;
  }
 
- .section_gallery{
-   padding-left: 28px;
- }
  .main_index{
    font-family: Helvetica monospace sans-serif;
    font-size: 1.2em;
@@ -223,6 +233,7 @@ header {
 
  width: 100%;
  background-color: #FFF;
+ text-align: center;
 
 }
 nav{
