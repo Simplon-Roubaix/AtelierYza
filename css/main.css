@@ -122,6 +122,9 @@ textarea {
    margin-left: 100px ;
    margin-right: -65px;
                 }
+.carte_present{
+  height: 40%;
+}
  .center-align,main .main_index{
     text-align: center!important;
 padding-right: 10px;
@@ -152,7 +155,8 @@ padding-right: 10px;
    font-size: 1.2em;
    border: 1.5px dotted black;
    /*background-color: #E0E0E0;*/
-   width: 110%;
+   width: 70%;
+   margin: 0 auto;
 
  }
  .table_index{
@@ -560,7 +564,6 @@ padding-right: 10px;
 
 header {
   background-color: #FFF;
-
 }
 
 .logo-header {
@@ -584,8 +587,11 @@ body {
  width: 70%;
  margin: 0 auto;
 }
-
+article a{
+    color:#ff8c00!important;
+}
 .metro {
+
   width: 30px;
   filter: grayscale(100%);
 -webkit-filter: grayscale(100%);
@@ -607,6 +613,16 @@ body {
 .form-contact {
   margin: 0 auto;
 }
+.case{
+  margin: 0 auto !important;
+}
+.formulaire{
+  /*width: 50px;
+  height: 80px;*/
+  border: 1px dotted deepskyblue;
+  font-family: Helvetica, sans-serif;
+    background-color: aliceblue;
+  }
 
 @media screen and (min-width:768px) {
 
