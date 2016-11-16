@@ -114,7 +114,7 @@ padding-right: 10px;
  }
  .section_espace_libre{
    /*background-color: #E0E0E0;*/
-   /*margin: 0 -30px -20px -40px;*/
+   margin: 0 -30px -20px -40px;
  }
  /*.section_gallery{
    margin: 0 -30px -35px -100px;
@@ -131,8 +131,8 @@ padding-right: 10px;
  }*/
 
  .section_a{
-   width: 80%;
-   height: 75%;
+   width: 78%;
+   height: 50%;
    margin: 0 auto;
    text-align: center;
  }
@@ -154,8 +154,11 @@ padding-right: 10px;
    text-align: center;
    background-color: #B70060;
  }
+/*actualities===============================================================*/
+.actual{
 
-
+  background-color: #B70060;
+}
  .news {
      /*margin: 10px 25px 10px -40px;*/
       margin: 0 auto;
