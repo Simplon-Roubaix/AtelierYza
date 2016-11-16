@@ -130,7 +130,7 @@ padding-right: 10px;
 
  }*/
 
- section{
+ .section_a{
    width: 80%;
    height: 75%;
    margin: 0 auto;
@@ -164,6 +164,7 @@ padding-right: 10px;
  }
  .archive {
      padding-top: 60px!important;
+     color: black;
  }
 /*.carousel{
 
