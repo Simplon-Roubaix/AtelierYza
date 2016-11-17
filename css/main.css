@@ -256,12 +256,28 @@ padding-right: 10px;
 
 .header_salon_the {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section_the {
+    margin-bottom: 50px;
 }
 
 /****************************  agenda.html *************************/
 
+.agenda_img {
+    width: 100%;
+}
 
+.center-align_agenda {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
+.row, .agenda {
+    margin-bottom: 50px;
+}
 /****************************  tarif.html *************************/
 .tarif_empty_tr {
     height: 20px;
