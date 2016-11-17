@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> L'Atelier d'Yza café couture | Acceuil</title>
+    <title>L'Atelier d'Yza café couture | Contact</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,12 +12,13 @@
     <!-- Place favicon.ico in the root directory -->
     <link rel="icon" href="img/favicon.ico">
 
+
     <link rel="stylesheet" href="css/normalize.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
@@ -30,7 +31,7 @@
 
     <!-- header starts here===================================================== -->
     <header>
-      <figure>
+      <figure >
         <a href="index.html" class="brand-logo"><img src="img/Logo_Ate_Yza_cu22.png" alt="Logo" /></a>
       </figure>
       <!--nav starts============================================================ -->
@@ -41,6 +42,7 @@
             <li><a href="index.html">Accueil</a></li>
             <li><a href="gallery.html">Galerie</a></li>
             <li class="active"><a href="Contact.html">Contact</a></li>
+
             <li><a href="agenda.html">Agenda</a></li>
             <li><a href="actualities.html"> Actualités</a></li>
             <li><a href="tarif.html">Tarifs</a></li>
@@ -55,6 +57,7 @@
           </ul>
         </div>
       </nav>
+
       <!--nav ends here========================================================= -->
     </header>
     <!-- header ends here======================================================= -->
@@ -95,52 +98,60 @@
         <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div id='gmap_canvas' class="hide-on-med-and-down" style='height:440px;width:700px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(50.6948787,3.163700199999994),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(50.6948787,3.163700199999994)});infowindow = new google.maps.InfoWindow({content:'<strong>L’Atelier d’Yza</strong><br>54 rue du Chemin de Fer 59100 roubaix<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
       </figure>
 
-  <div class="container form-contact">
-    <div class="row">
-     <form class="col s12 l12 formulaire">
-     <div class="row">
-       <div class="input-field col s6">
-         <input id="first_name" type="text" class="validate">
-         <label for="first_name">Nom</label>
-       </div>
-       <div class="input-field col s6">
-         <input id="last_name" type="text" class="validate">
-         <label for="last_name">Pr&eacute;nom</label>
-       </div>
-     </div>
-     <div class="row">
-       <div class="input-field col s12">
-         <input id="email" type="email" class="validate">
-         <label for="email">Email</label>
-       </div>
-     </div>
+      <div class="row hide-on-med-and-down">
+        <div class="column_index col s12 m12 centered striped">
+          <h5 class="center">FORMULAIRE POUR LES CLIENTS</h5>
+          <div class="card-panel">
 
-     <div class="col s9 m9 case">
-       <p><label>Formulaire</label></p>
-       <input type="checkbox" id="inscription" value="inscription" name="demande"><label class="light"for="inscription">Inscription</label>
-       <input type="checkbox" id="atelier" value="atelier" name="demande"><label class="light"for="atelier">Atelier</label>
-       <input type="checkbox" id="&eacute;v&grave;nement" value="&eacute;v&grave;nement" name="demande"><label class="light"for="&eacute;v&grave;nement">&Eacute;v&egrave;nement</label>
-       <input type="checkbox" id="r&eacute;servation" value="reservation" name="demande"><label class="light"for="r&eacute;servation">R&eacute;servation</label><br>
-       <!--checkbox allows to select more then 1 option, for instance user can choose the first and the last one  -->
-     </div>
+            <div class="container form-contact">
+              <div class="row">
+               <form class="col s12 l12 formulaire">
+               <div class="row">
+                 <div class="input-field col s6">
+                   <input id="first_name" type="text" class="validate">
+                   <label for="first_name">Nom</label>
+                 </div>
+                 <div class="input-field col s6">
+                   <input id="last_name" type="text" class="validate">
+                   <label for="last_name">Pr&eacute;nom</label>
+                 </div>
+               </div>
+               <div class="row">
+                 <div class="input-field col s12">
+                   <input id="email" type="email" class="validate">
+                   <label for="email">Email</label>
+                 </div>
+               </div>
 
-     <div class="row">
-       <div class="input-field col s12">
-         <textarea id="textarea1" class="materialize-textarea" length="120"></textarea>
-         <label for="textarea1">D&eacute;tails</label>
-       </div>
-     </div>
-     </form>
-   </div>
-   <!-- <button class="btn waves-effect" type="submit" name="action">
-     <i class="material-icons right">Envoyez</i>
-   </button> -->
-     <button type="submit" class="button btn waves-effect">Validez vos informations</button>
+               <div class="col s9 m9 case">
+                 <p><label>PARTICIPEZ</label></p>
+                 <input type="checkbox" id="inscription" value="inscription" name="demande"><label class="light"for="inscription">Inscription</label>
+                 <input type="checkbox" id="atelier" value="atelier" name="demande"><label class="light"for="atelier">Atelier</label>
+                 <input type="checkbox" id="&eacute;v&grave;nement" value="&eacute;v&grave;nement" name="demande"><label class="light"for="&eacute;v&grave;nement">&Eacute;v&egrave;nement</label>
+                 <input type="checkbox" id="r&eacute;servation" value="reservation" name="demande"><label class="light"for="r&eacute;servation">R&eacute;servation</label><br>
+                 <!--checkbox allows to select more then 1 option, for instance user can choose the first and the last one  -->
+               </div>
 
-  </div>
+               <div class="row">
+                 <div class="input-field col s12">
+                   <textarea id="textarea1" class="materialize-textarea" length="120"></textarea>
+                   <label for="textarea1">D&eacute;tails</label>
+                 </div>
+               </div>
+               </form>
+
+            </div>
+             <button class=" waves-effect" type="submit" name="action">
+               <i class="material-icons right">VALIDEZ VOS INFORMATIONS</i>
+             </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
     </section>
   </div> <!-- end wrapper -->
-  </div>
+</div>
     <!--  wrap ends here========================================================-->
       <!--  footer starts here========================================================-->
       <footer class="page-footer">
@@ -181,8 +192,6 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script src="js/jQuery3.1.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -201,6 +210,8 @@
         ga('create', 'UA-XXXXX-X', 'auto');
         ga('send', 'pageview');
     </script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 </body>
 
 </html>
