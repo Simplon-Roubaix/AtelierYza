@@ -279,9 +279,35 @@ padding-right: 10px;
     margin-bottom: 25px;
 }
 
-.row, .agenda {
+.row,
+.agenda {
     margin-bottom: 50px;
 }
+
+.material-icons,
+.right {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.main_image1_agenda {
+    margin-top: -50px;
+}
+
+.detail_agenda {
+    background-color: transparent;
+    }
+
+.font_agenda {
+    font-size: 22px !important;
+    font-weight: 400 !important;
+    color: rgb(183, 0, 96);
+}
+
+.p_agenda {
+
+    }
+
 /****************************  tarif.html *************************/
 
 .tarif_empty_tr {
@@ -302,6 +328,11 @@ padding-right: 10px;
     height: 50px;
 
 }
+
+
+
+
+
    /* ##################################################################### */
    /* ##########################   Ryan   ########################### */
    /* #############################pages: contact.html, atelier_couture.html et partners.html######################################## */
