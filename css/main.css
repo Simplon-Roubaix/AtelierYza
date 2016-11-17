@@ -279,12 +279,25 @@ padding-right: 10px;
     margin-bottom: 50px;
 }
 /****************************  tarif.html *************************/
+
 .tarif_empty_tr {
     height: 20px;
 }
 
+.h4_tarif {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
+.card,
+.horizontal {
+    margin-bottom: 50px;
+    }
 
+.tarif_empty_tr {
+    height: 50px;
+
+}
    /* ##################################################################### */
    /* ##########################   Ryan   ########################### */
    /* #############################pages: contact.html, atelier_couture.html et partners.html######################################## */
