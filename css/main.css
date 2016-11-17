@@ -256,14 +256,18 @@ padding-right: 10px;
 
 .header_salon_the {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 25px;
 }
 
 .section_the {
-    margin-bottom: 50px;
+    margin-top:50px;
+    margin-bottom: 25px;
 }
 
+.img_salon_the {
+    height: 50%;
+}
 /****************************  agenda.html *************************/
 
 .agenda_img {
@@ -272,7 +276,7 @@ padding-right: 10px;
 
 .center-align_agenda {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .row, .agenda {
