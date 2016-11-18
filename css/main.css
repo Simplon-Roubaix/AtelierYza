@@ -298,6 +298,7 @@ padding-right: 10px;
 
 .agenda_img {
     width: 100%;
+    margin-top: -25px;
 }
 
 .center-align_agenda {
@@ -334,6 +335,12 @@ padding-right: 10px;
 
     }
 
+.card-image,
+.z-depth-3,
+.agenda_depth {
+    margin-top: 0;
+    }
+
 /****************************  tarif.html *************************/
 
 .tarif_empty_tr {
@@ -355,7 +362,10 @@ padding-right: 10px;
 
 }
 
-
+.tarif_img {
+        width: 100%;
+        margin-top: -25px !important;
+}
 
 
 
