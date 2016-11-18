@@ -187,6 +187,16 @@ padding-right: 10px;
   color: black;
 }
  /*espace_libre_service.html=====================================================*/
+ /*espace_libre_service.html=====================================================*/
+ #cycler{position:relative;}
+ #cycler img{position:absolute;z-index:1}
+ #cycler img.active{z-index:3}
+ #cycler{
+   width:100%;
+   height:300px;
+ }
+
+
  .section_espace_libre{
    /*background-color: #E0E0E0;*/
    margin: 0 -30px -20px -40px;
