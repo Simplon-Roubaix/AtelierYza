@@ -148,16 +148,16 @@ textarea {
 padding-right: 10px;
                 }
  }
- .news {
+ /*.news {*/
      /*margin: 10px 25px 10px -40px;*/
-      margin: 0 auto;
-       width:  100%;
+      /*margin: 0 auto;
+       width:  100%;*/
        /*height: 35%;*/
- }
+ /*}*/
 
-.carousel{
+.row .carousel{
 
-  width:  100%;
+  width:  100% !important;
   /*height: 35%;*/
 
 }
