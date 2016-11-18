@@ -336,19 +336,20 @@ padding-right: 10px;
     }
 
 .font_agenda {
-    font-size: 22px !important;
+    font-size: 20px !important;
     font-weight: 400 !important;
     color: rgb(183, 0, 96);
 }
 
-.p_agenda {
-
-    }
 
 .card-image,
 .z-depth-3,
 .agenda_depth {
     margin-top: 0;
+}
+
+p .p_agenda {
+    text-align: center;
     }
 
 /****************************  tarif.html *************************/
