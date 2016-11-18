@@ -99,9 +99,31 @@ textarea {
    /* ##################################################################### */
  /* ##########################   Simon Pierre   ########################### */
  /* ############################pages: index.html, galerie.html, actualites.html et espace_libre_service.html######################################### */
+ body {
+   font-family: Abel;
+   text-align: center;
+ }
+
+ header {
+
+  width: 100%;
+  background-color: #FFF;
+  text-align: center;
+
+ }
+ nav{
+
+   background-size: cover;
+   background-color: #B70060 ;
+ }
+
+
  h5 {
    font-family: Abel!important;
    text-align: center;
+ }
+ section a{
+     color:#B70060 !important;
  }
  /*index.html===================================================================*/
  .section_a{
@@ -111,7 +133,7 @@ textarea {
    text-align: center;
  }
  .section_index{
-   width: 120%;
+   /*width: 120%;*/
    margin-left: 100px ;
    margin-right: -65px;
                 }
@@ -127,7 +149,7 @@ textarea {
  .main_index{
    font-family: Helvetica monospace sans-serif;
    font-size: 1.2em;
-   border: 1.5px dotted black;
+   border: 1.5px solid black;
    /*background-color: #E0E0E0;*/
    width: 70%;
    margin: 0 auto;
@@ -341,18 +363,8 @@ padding-right: 10px;
    /* ##########################   Ryan   ########################### */
    /* #############################pages: contact.html, atelier_couture.html et partners.html######################################## */
 
-header {
 
- width: 100%;
- background-color: #FFF;
- text-align: center;
 
-}
-nav{
-
-  background-size: cover;
-  background-color: #B70060 ;
-}
 
 /*.logo-header {
   margin-top: 0;
@@ -363,18 +375,12 @@ nav{
   background-color: #B70060 !important;
 }
 
-body {
-  font-family: Abel;
-  text-align: center;
-}
 
 .wrapper {
- width: 70%;
+ width: 80%;
  margin: 25px auto;
 }
-section a{
-    color:#B70060 !important;
-}
+
 
 .metro {
 
@@ -385,6 +391,10 @@ section a{
 -ms-filter: grayscale(100%);
 -o-filter: grayscale(100%);
 }
+.bouton_valid{
+  border-radius: 10px;
+}
+
 
 #gmap_canvas {
   margin: 0 auto!important;
