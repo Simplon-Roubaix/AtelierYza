@@ -6,8 +6,9 @@ $(document).ready(function(){
 
 $(document).ready(function(){
           $('.carousel').carousel();
+          // $('.carousel.carousel-slider').carousel({full_width: true});
           $('.carousel').carousel({
-    padding: 200
+    // padding: 200
 });
 autoplay()
 function autoplay() {
