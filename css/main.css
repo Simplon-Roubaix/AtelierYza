@@ -187,12 +187,23 @@ padding-right: 10px;
   color: black;
 }
  /*espace_libre_service.html=====================================================*/
- /*espace_libre_service.html=====================================================*/
- #cycler{position:relative;}
- #cycler img{position:absolute;z-index:1}
- #cycler img.active{z-index:3}
- #cycler{
-   width:100%;
+
+ .anim_concept{
+   position:relative;
+ }
+
+ .anim_concept img{
+   position:absolute;z-index:1
+ }
+
+ .anim_concept img.active{
+   z-index:3
+ }
+
+ .anim_concept{
+   margin: 0 auto !important;
+   padding-bottom: 25px;
+   width:800px;
    height:300px;
  }
 
@@ -214,8 +225,26 @@ padding-right: 10px;
    width:100%;
 
  }*/
+/*atelier couture##################################################################""*/
+ .crossfader-effect{
+   margin: 0 auto;
+   width: 90%;
+   height: 600px;
+ }
 
-
+  #container {position: relative; font-size: 0;}
+  .slide {
+      border: none;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      -webkit-transition: opacity 2s linear;
+      -moz-transition: opacity 2s linear;
+      -o-transition: opacity 2s linear;
+      transition: opacity 2s linear;
+  }
+  .showMe {opacity: 1;}
  /*.section_a{
  width: 120%;
  height: 30%;
@@ -276,6 +305,13 @@ padding-right: 10px;
   margin-left: 100px ;
   margin-right: -65px;
                }*/
+/*@media (min-width: 444px) {
+ .anim_concept{
+   max-width:(100vh);
+   margin:0 auto;
+       }*/
+
+    }
 
 
 
