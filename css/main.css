@@ -170,6 +170,24 @@ textarea {
 padding-right: 10px;
                 }
  }
+ .first_carouz {
+margin: 0 auto;
+ position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 50px; /* height of thumbs (if not required set to 0) */
+    height: auto; /* optionally add !important for WP version */
+    width: auto;
+ }
+ .carousel-item img{
+ position: relative;
+   width:  450px !important;
+   height: 60% !important;
+   padding: 0;
+   margin: 0 100px 0 -100px;
+
+ }
  /*.news {*/
      /*margin: 10px 25px 10px -40px;*/
       /*margin: 0 auto;
@@ -187,6 +205,27 @@ padding-right: 10px;
   color: black;
 }
  /*espace_libre_service.html=====================================================*/
+
+ .anim_concept{
+   position:relative;
+ }
+
+ .anim_concept img{
+   position:absolute;z-index:1
+ }
+
+ .anim_concept img.active{
+   z-index:3
+ }
+
+ .anim_concept{
+   margin: 0 auto !important;
+   padding-bottom: 25px;
+   width:800px;
+   height:300px;
+ }
+
+
  .section_espace_libre{
    /*background-color: #E0E0E0;*/
    margin: 0 -30px -20px -40px;
@@ -204,8 +243,26 @@ padding-right: 10px;
    width:100%;
 
  }*/
+/*atelier couture##################################################################""*/
+ .crossfader-effect{
+   margin: 0 auto;
+   width: 90%;
+   height: 600px;
+ }
 
-
+  #container {position: relative; font-size: 0;}
+  .slide {
+      border: none;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      -webkit-transition: opacity 2s linear;
+      -moz-transition: opacity 2s linear;
+      -o-transition: opacity 2s linear;
+      transition: opacity 2s linear;
+  }
+  .showMe {opacity: 1;}
  /*.section_a{
  width: 120%;
  height: 30%;
@@ -266,6 +323,13 @@ padding-right: 10px;
   margin-left: 100px ;
   margin-right: -65px;
                }*/
+/*@media (min-width: 444px) {
+ .anim_concept{
+   max-width:(100vh);
+   margin:0 auto;
+       }*/
+
+    }
 
 
 
@@ -286,7 +350,7 @@ padding-right: 10px;
     margin-bottom: 25px;
 }
 
-.section_the {
+.section_a,.section_the {
     margin-top:50px;
     margin-bottom: 25px;
 }
@@ -409,9 +473,7 @@ p .p_agenda {
 -ms-filter: grayscale(100%);
 -o-filter: grayscale(100%);
 }
-.bouton_valid{
-  border-radius: 10px;
-}
+
 
 
 #gmap_canvas {
@@ -420,22 +482,27 @@ p .p_agenda {
 }
 
 
-.section_contact {
-  /*background-color: #E0E0E0;*/
+.case{
+  margin: 0 auto !important;
 }
+
+/*page contact#####################################################################*/
 
 .form-contact {
   margin: 0 auto;
 }
-.case{
-  margin: 0 auto !important;
+.bouton_valid{
+  border-radius: 10px;
+  background-color: 	#f8f8ff;
+  padding-top: 20px;
+  padding-right: 22px;
 }
 .formulaire{
   /*width: 50px;
   height: 80px;*/
   border-radius: 20px;
   font-family: Helvetica, sans-serif;
-    background-color: #E0E0E0;
+  background-color: #f8f8ff;
 
   }
 
