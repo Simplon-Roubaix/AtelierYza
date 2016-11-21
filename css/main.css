@@ -355,9 +355,16 @@ margin: 0 auto;
     margin-bottom: 25px;
 }
 
-.img_salon_the {
-    height: 50%;
-}
+
+/* crossfading */
+
+    #cycler{position:relative;}
+    #cycler img{position:absolute;z-index:1}
+    #cycler img.active{z-index:3}
+
+    #cycler { height: 450px;}
+
+
 /****************************  agenda.html *************************/
 
 .agenda_img {
