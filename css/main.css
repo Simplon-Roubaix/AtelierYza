@@ -98,217 +98,244 @@ textarea {
 
    /* ##################################################################### */
  /* ##########################   Simon Pierre   ########################### */
- /* ##################################################################### */
- .section_index,.section_espace_libre{
-   /*background-color: #E0E0E0;*/
-   margin: 0 -30px -20px -40px;
- }
- .section_gallery{
-   margin: 0 -30px -35px -100px;
- }
- .section_index,.section_espace_libre,.section_gallery{
-   padding-top: 5px;
-   width:115%;
+ /* ############################pages: index.html, galerie.html, actualites.html et espace_libre_service.html######################################### */
+ body {
+   font-family: Abel;
    text-align: center;
  }
+
+ header {
+
+  width: 100%;
+  background-color: #FFF;
+  text-align: center;
+
+ }
+ nav{
+
+   background-size: cover;
+   background-color: #B70060 ;
+ }
+
+
+ h5 {
+   font-family: Abel!important;
+   text-align: center;
+ }
+ section a{
+     color:#B70060 !important;
+ }
+ /*index.html===================================================================*/
+ .section_a{
+   /*width: 78%;*/
+   height: 30%;
+   margin: 0 auto;
+   text-align: center;
+ }
+ .section_index{
+   /*width: 120%;*/
+   margin-left: 100px ;
+   margin-right: -65px;
+                }
+
+.carte_present{
+  height: 40%;
+}
 
  .concept_index,.column_index{
    text-align: center;
  }
- .section_index{
-    padding-left: 40px !important;
- }
- .section_gallery{
-   padding-left: 28px;
- }
+
  .main_index{
    font-family: Helvetica monospace sans-serif;
    font-size: 1.2em;
-   border: 1.5px dotted black;
+   border: 1.5px solid black;
    /*background-color: #E0E0E0;*/
-   width: 110%;
-   margin-left: -25px;
+   width: 70%;
+   margin: 0 auto;
+
  }
  .table_index{
    text-align: center;
    background-color: #B70060;
  }
 
- h5 {
-   font-family: Abel!important;
+ .card-title{
+   height: 55px;
+   width:100%;
+   background-color: rgba(0, 0, 0, 0.5);
+ }
+ .center-align,main .main_index{
+    text-align: center!important;
+padding-right: 10px;
+                }
+ }
+ .first_carouz {
+margin: 0 auto;
+ position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 50px; /* height of thumbs (if not required set to 0) */
+    height: auto; /* optionally add !important for WP version */
+    width: auto;
+ }
+ .carousel-item img{
+ position: relative;
+   width:  450px !important;
+   height: 60% !important;
+   padding: 0;
+   margin: 0 100px 0 -100px;
+
+ }
+ /*.news {*/
+     /*margin: 10px 25px 10px -40px;*/
+      /*margin: 0 auto;
+       width:  100%;*/
+       /*height: 35%;*/
+ /*}*/
+
+.row .carousel{
+
+  width:  100% !important;
+  /*height: 35%;*/
+
+}
+.contact_link{
+  color: black;
+}
+ /*espace_libre_service.html=====================================================*/
+
+ .anim_concept{
+   position:relative;
  }
 
- .news {
-     margin-top: 65px;
+ .anim_concept img{
+   position:absolute;z-index:1
  }
- .archive {
-     padding-top: 60px!important;
+
+ .anim_concept img.active{
+   z-index:3
  }
-.carousel{
-  width:  30%;
-  height: 35%;
+
+ .anim_concept{
+   margin: 0 auto !important;
+   padding-bottom: 25px;
+   width:800px;
+   height:300px;
+ }
+
+
+ .section_espace_libre{
+   /*background-color: #E0E0E0;*/
+   margin: 0 -30px -20px -40px;
+ }
+ /*.section_gallery{
+   margin: 0 -30px -35px -100px;
+ }*/
+ /*.section_espace_libre,.section_gallery{
+   padding-top: 5px;
+   width:115%;
+   text-align: center;
+ }*/
+ /*.section_espace_libre,.section_gallery{
+
+   width:100%;
+
+ }*/
+/*atelier couture##################################################################""*/
+ .crossfader-effect{
+   margin: 0 auto;
+   width: 90%;
+   height: 600px;
+ }
+
+  #container {position: relative; font-size: 0;}
+  .slide {
+      border: none;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      -webkit-transition: opacity 2s linear;
+      -moz-transition: opacity 2s linear;
+      -o-transition: opacity 2s linear;
+      transition: opacity 2s linear;
+  }
+  .showMe {opacity: 1;}
+ /*.section_a{
+ width: 120%;
+ height: 30%;
+  margin: 0 auto;
+ margin-right: -65px;
+ text-align: center;
+ }*/
+
+
+.section_a,.section_the{
+  margin: 0 auto;
+  text-align: center;
+
 }
+
+
+ /*partners=================================================================*/
+ .partners-one,.partners-two,.parters-three{
+   margin-bottom: 35px;
+ }
+/*actualities===============================================================*/
+.archive {
+    padding-top: 60px!important;
+    color: black;
+}
+.actual{
+
+  background-color: #B70060;
+}
+
+.bloc_news{
+  margin: 50px auto;
+}
+
 .header_space{
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 241px) {
+  .section_index{
+    margin-left: -5px;
+    margin-right: 0;}
+  }
+@media (max-width: 600px) {
+.section_index{
+  margin-left: -5px;
+  margin-right: 0;
+              }
+
+}
+@media (min-width: 601px) {
+.section_index, .news{
+  margin: 0 auto;
+               }
+
+/*@media (max-width: 992px) {
+.section_index{
+  width: 120%;
+  margin-left: 100px ;
+  margin-right: -65px;
+               }*/
+/*@media (min-width: 444px) {
+ .anim_concept{
+   max-width:(100vh);
+   margin:0 auto;
+       }*/
+
+    }
 
 
 
    /* ##################################################################### */
    /* ##########################   Justyna  ########################### */
-   /* ##################################################################### */
+   /* ################################pages: agenda.html, salon_the.html et tarif.html##################################### */
 
 
 
@@ -319,240 +346,126 @@ textarea {
 
 .header_salon_the {
     text-align: center;
+    margin-top: 0px;
+    margin-bottom: 25px;
 }
+
+.section_a,.section_the {
+    margin-top:50px;
+    margin-bottom: 25px;
+}
+
+
+/* crossfading */
+
+    #cycler{position:relative;}
+    #cycler img{position:absolute;z-index:1}
+    #cycler img.active{z-index:3}
+
+    #cycler { height: 450px;}
+
 
 /****************************  agenda.html *************************/
 
+.agenda_img {
+    width: 100%;
+    margin-top: -25px;
+}
 
+.center-align_agenda {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.row,
+.agenda {
+    margin-bottom: 50px;
+}
+
+.material-icons,
+.right {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.main_image1_agenda {
+    margin-top: -50px;
+}
+
+.detail_agenda {
+    background-color: transparent;
+    }
+
+.font_agenda {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    color: rgb(183, 0, 96);
+}
+
+
+.card-image,
+.z-depth-3,
+.agenda_depth {
+    margin-top: 0;
+}
+
+p .p_agenda {
+    text-align: center;
+    }
 
 /****************************  tarif.html *************************/
+
 .tarif_empty_tr {
     height: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.h4_tarif {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card,
+.horizontal {
+    margin-bottom: 50px;
+    }
+
+.tarif_empty_tr {
+    height: 50px;
+
+}
+
+.tarif_img {
+        width: 100%;
+        margin-top: -25px !important;
+}
 
 
 
    /* ##################################################################### */
    /* ##########################   Ryan   ########################### */
-   /* ##################################################################### */
+   /* #############################pages: contact.html, atelier_couture.html et partners.html######################################## */
 
-header {
-  background-color: #FFF;
-}
 
-.logo-header {
+
+
+/*.logo-header {
   margin-top: 0;
-}
+}*/
 
-nav {
-  background-color: #B70060;
-}
 
 .page-footer {
   background-color: #B70060 !important;
 }
 
-body {
-  font-family: Abel;
-}
 
 .wrapper {
- width: 70%;
- margin: 0 auto;
+ width: 80%;
+ margin: 25px auto;
 }
 
+
 .metro {
+
   width: 30px;
   filter: grayscale(100%);
 -webkit-filter: grayscale(100%);
@@ -561,19 +474,37 @@ body {
 -o-filter: grayscale(100%);
 }
 
+
+
 #gmap_canvas {
   margin: 0 auto!important;
   overflow: hidden;
 }
 
 
-.section_contact {
-  /*background-color: #E0E0E0;*/
+.case{
+  margin: 0 auto !important;
 }
+
+/*page contact#####################################################################*/
 
 .form-contact {
   margin: 0 auto;
 }
+.bouton_valid{
+  border-radius: 10px;
+  background-color: 	#f8f8ff;
+  padding-top: 20px;
+  padding-right: 22px;
+}
+.formulaire{
+  /*width: 50px;
+  height: 80px;*/
+  border-radius: 20px;
+  font-family: Helvetica, sans-serif;
+  background-color: #f8f8ff;
+
+  }
 
 @media screen and (min-width:768px) {
 
